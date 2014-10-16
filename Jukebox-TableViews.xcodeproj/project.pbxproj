@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3139506119EF208800655513 /* FISPlaylistTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3139505E19EF208800655513 /* FISPlaylistTableViewController.m */; };
-		3139506219EF208800655513 /* FISSongTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3139506019EF208800655513 /* FISSongTableViewController.m */; };
 		319F31CA19EF1B7D002F371E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F31C919EF1B7D002F371E /* main.m */; };
 		319F31CD19EF1B7D002F371E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F31CC19EF1B7D002F371E /* AppDelegate.m */; };
 		319F31D519EF1B7D002F371E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 319F31D419EF1B7D002F371E /* Images.xcassets */; };
@@ -41,10 +39,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3139505D19EF208800655513 /* FISPlaylistTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISPlaylistTableViewController.h; sourceTree = "<group>"; };
-		3139505E19EF208800655513 /* FISPlaylistTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPlaylistTableViewController.m; sourceTree = "<group>"; };
-		3139505F19EF208800655513 /* FISSongTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISSongTableViewController.h; sourceTree = "<group>"; };
-		3139506019EF208800655513 /* FISSongTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISSongTableViewController.m; sourceTree = "<group>"; };
 		319F31C419EF1B7D002F371E /* Jukebox-TableViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jukebox-TableViews.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		319F31C819EF1B7D002F371E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		319F31C919EF1B7D002F371E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -98,10 +92,6 @@
 		3139505619EF1FB300655513 /* New VCs */ = {
 			isa = PBXGroup;
 			children = (
-				3139505D19EF208800655513 /* FISPlaylistTableViewController.h */,
-				3139505E19EF208800655513 /* FISPlaylistTableViewController.m */,
-				3139505F19EF208800655513 /* FISSongTableViewController.h */,
-				3139506019EF208800655513 /* FISSongTableViewController.m */,
 			);
 			name = "New VCs";
 			sourceTree = "<group>";
@@ -369,9 +359,7 @@
 				319F31CD19EF1B7D002F371E /* AppDelegate.m in Sources */,
 				319F31F619EF1BD1002F371E /* FISSong.m in Sources */,
 				319F31F719EF1BD1002F371E /* FISPlaylist.m in Sources */,
-				3139506219EF208800655513 /* FISSongTableViewController.m in Sources */,
 				319F31F119EF1BC1002F371E /* FISJukeboxViewController.m in Sources */,
-				3139506119EF208800655513 /* FISPlaylistTableViewController.m in Sources */,
 				319F31CA19EF1B7D002F371E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
