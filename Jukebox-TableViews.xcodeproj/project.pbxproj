@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3139506119EF208800655513 /* FISPlaylistTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3139505E19EF208800655513 /* FISPlaylistTableViewController.m */; };
+		3139506219EF208800655513 /* FISSongTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3139506019EF208800655513 /* FISSongTableViewController.m */; };
+		319F31CA19EF1B7D002F371E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F31C919EF1B7D002F371E /* main.m */; };
+		319F31CD19EF1B7D002F371E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F31CC19EF1B7D002F371E /* AppDelegate.m */; };
+		319F31D519EF1B7D002F371E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 319F31D419EF1B7D002F371E /* Images.xcassets */; };
+		319F31D819EF1B7D002F371E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 319F31D619EF1B7D002F371E /* LaunchScreen.xib */; };
+		319F31EE19EF1BA5002F371E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319F31ED19EF1BA5002F371E /* Main.storyboard */; };
+		319F31F119EF1BC1002F371E /* FISJukeboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F31F019EF1BC1002F371E /* FISJukeboxViewController.m */; };
+		319F31F619EF1BD1002F371E /* FISSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F31F319EF1BD1002F371E /* FISSong.m */; };
+		319F31F719EF1BD1002F371E /* FISPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F31F519EF1BD1002F371E /* FISPlaylist.m */; };
+		319F31FC19EF1BEB002F371E /* stop_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 319F31FA19EF1BEB002F371E /* stop_icon.png */; };
+		319F31FD19EF1BEB002F371E /* play_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 319F31FB19EF1BEB002F371E /* play_icon.png */; };
+		319F320519EF1BFC002F371E /* how_we_do.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 319F31FE19EF1BFC002F371E /* how_we_do.mp3 */; };
+		319F320619EF1BFC002F371E /* hold_on_be_strong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 319F31FF19EF1BFC002F371E /* hold_on_be_strong.mp3 */; };
+		319F320719EF1BFC002F371E /* higher_love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 319F320019EF1BFC002F371E /* higher_love.mp3 */; };
+		319F320819EF1BFC002F371E /* mo_money_mo_problems.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 319F320119EF1BFC002F371E /* mo_money_mo_problems.mp3 */; };
+		319F320919EF1BFC002F371E /* old_thing_back.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 319F320219EF1BFC002F371E /* old_thing_back.mp3 */; };
+		319F320A19EF1BFC002F371E /* gangsta_bleeding_love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 319F320319EF1BFC002F371E /* gangsta_bleeding_love.mp3 */; };
+		319F320B19EF1BFC002F371E /* bailando.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 319F320419EF1BFC002F371E /* bailando.mp3 */; };
+		319F320E19EF1C0B002F371E /* JukeboxViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F320D19EF1C0B002F371E /* JukeboxViewsTests.m */; };
+		6024D6B6782413A757103E1A /* libPods-Jukebox-TableViewsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 808EBA1844301FA18FAB4CF2 /* libPods-Jukebox-TableViewsTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		319F31DE19EF1B7D002F371E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 319F31BC19EF1B7D002F371E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 319F31C319EF1B7D002F371E;
+			remoteInfo = "Jukebox-TableViews";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3139505D19EF208800655513 /* FISPlaylistTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISPlaylistTableViewController.h; sourceTree = "<group>"; };
+		3139505E19EF208800655513 /* FISPlaylistTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPlaylistTableViewController.m; sourceTree = "<group>"; };
+		3139505F19EF208800655513 /* FISSongTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISSongTableViewController.h; sourceTree = "<group>"; };
+		3139506019EF208800655513 /* FISSongTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISSongTableViewController.m; sourceTree = "<group>"; };
+		319F31C419EF1B7D002F371E /* Jukebox-TableViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jukebox-TableViews.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		319F31C819EF1B7D002F371E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		319F31C919EF1B7D002F371E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		319F31CB19EF1B7D002F371E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		319F31CC19EF1B7D002F371E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		319F31D419EF1B7D002F371E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		319F31D719EF1B7D002F371E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		319F31DD19EF1B7D002F371E /* Jukebox-TableViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jukebox-TableViewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		319F31E219EF1B7D002F371E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		319F31ED19EF1BA5002F371E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		319F31EF19EF1BC1002F371E /* FISJukeboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISJukeboxViewController.h; sourceTree = "<group>"; };
+		319F31F019EF1BC1002F371E /* FISJukeboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISJukeboxViewController.m; sourceTree = "<group>"; };
+		319F31F219EF1BD1002F371E /* FISSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISSong.h; sourceTree = "<group>"; };
+		319F31F319EF1BD1002F371E /* FISSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISSong.m; sourceTree = "<group>"; };
+		319F31F419EF1BD1002F371E /* FISPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISPlaylist.h; sourceTree = "<group>"; };
+		319F31F519EF1BD1002F371E /* FISPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPlaylist.m; sourceTree = "<group>"; };
+		319F31FA19EF1BEB002F371E /* stop_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop_icon.png; sourceTree = "<group>"; };
+		319F31FB19EF1BEB002F371E /* play_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_icon.png; sourceTree = "<group>"; };
+		319F31FE19EF1BFC002F371E /* how_we_do.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = how_we_do.mp3; sourceTree = "<group>"; };
+		319F31FF19EF1BFC002F371E /* hold_on_be_strong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hold_on_be_strong.mp3; sourceTree = "<group>"; };
+		319F320019EF1BFC002F371E /* higher_love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = higher_love.mp3; sourceTree = "<group>"; };
+		319F320119EF1BFC002F371E /* mo_money_mo_problems.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mo_money_mo_problems.mp3; sourceTree = "<group>"; };
+		319F320219EF1BFC002F371E /* old_thing_back.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = old_thing_back.mp3; sourceTree = "<group>"; };
+		319F320319EF1BFC002F371E /* gangsta_bleeding_love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gangsta_bleeding_love.mp3; sourceTree = "<group>"; };
+		319F320419EF1BFC002F371E /* bailando.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bailando.mp3; sourceTree = "<group>"; };
+		319F320D19EF1C0B002F371E /* JukeboxViewsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JukeboxViewsTests.m; sourceTree = "<group>"; };
+		808EBA1844301FA18FAB4CF2 /* libPods-Jukebox-TableViewsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Jukebox-TableViewsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CBB249B7415A2CE2149853 /* Pods-Jukebox-TableViewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jukebox-TableViewsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jukebox-TableViewsTests/Pods-Jukebox-TableViewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF54BBD20AAA95B0518036CA /* Pods-Jukebox-TableViewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jukebox-TableViewsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jukebox-TableViewsTests/Pods-Jukebox-TableViewsTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		319F31C119EF1B7D002F371E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		319F31DA19EF1B7D002F371E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6024D6B6782413A757103E1A /* libPods-Jukebox-TableViewsTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3139505619EF1FB300655513 /* New VCs */ = {
+			isa = PBXGroup;
+			children = (
+				3139505D19EF208800655513 /* FISPlaylistTableViewController.h */,
+				3139505E19EF208800655513 /* FISPlaylistTableViewController.m */,
+				3139505F19EF208800655513 /* FISSongTableViewController.h */,
+				3139506019EF208800655513 /* FISSongTableViewController.m */,
+			);
+			name = "New VCs";
+			sourceTree = "<group>";
+		};
+		319F31BB19EF1B7D002F371E = {
+			isa = PBXGroup;
+			children = (
+				319F31C619EF1B7D002F371E /* Jukebox-TableViews */,
+				319F31E019EF1B7D002F371E /* Jukebox-TableViewsTests */,
+				319F31C519EF1B7D002F371E /* Products */,
+				6AC2D5EA1F689B5AFD02C5EA /* Pods */,
+				59D955D9BAA31140F0CD5190 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		319F31C519EF1B7D002F371E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				319F31C419EF1B7D002F371E /* Jukebox-TableViews.app */,
+				319F31DD19EF1B7D002F371E /* Jukebox-TableViewsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		319F31C619EF1B7D002F371E /* Jukebox-TableViews */ = {
+			isa = PBXGroup;
+			children = (
+				319F31CB19EF1B7D002F371E /* AppDelegate.h */,
+				319F31CC19EF1B7D002F371E /* AppDelegate.m */,
+				3139505619EF1FB300655513 /* New VCs */,
+				319F31F919EF1BDE002F371E /* Old VCs */,
+				319F31F819EF1BD4002F371E /* Model */,
+				319F31ED19EF1BA5002F371E /* Main.storyboard */,
+				319F31D419EF1B7D002F371E /* Images.xcassets */,
+				319F31D619EF1B7D002F371E /* LaunchScreen.xib */,
+				319F31C719EF1B7D002F371E /* Supporting Files */,
+			);
+			path = "Jukebox-TableViews";
+			sourceTree = "<group>";
+		};
+		319F31C719EF1B7D002F371E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				319F31FA19EF1BEB002F371E /* stop_icon.png */,
+				319F31FB19EF1BEB002F371E /* play_icon.png */,
+				319F31C819EF1B7D002F371E /* Info.plist */,
+				319F31C919EF1B7D002F371E /* main.m */,
+				319F320C19EF1C01002F371E /* Songs */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		319F31E019EF1B7D002F371E /* Jukebox-TableViewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				319F320D19EF1C0B002F371E /* JukeboxViewsTests.m */,
+				319F31E119EF1B7D002F371E /* Supporting Files */,
+			);
+			path = "Jukebox-TableViewsTests";
+			sourceTree = "<group>";
+		};
+		319F31E119EF1B7D002F371E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				319F31E219EF1B7D002F371E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		319F31F819EF1BD4002F371E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				319F31F219EF1BD1002F371E /* FISSong.h */,
+				319F31F319EF1BD1002F371E /* FISSong.m */,
+				319F31F419EF1BD1002F371E /* FISPlaylist.h */,
+				319F31F519EF1BD1002F371E /* FISPlaylist.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		319F31F919EF1BDE002F371E /* Old VCs */ = {
+			isa = PBXGroup;
+			children = (
+				319F31EF19EF1BC1002F371E /* FISJukeboxViewController.h */,
+				319F31F019EF1BC1002F371E /* FISJukeboxViewController.m */,
+			);
+			name = "Old VCs";
+			sourceTree = "<group>";
+		};
+		319F320C19EF1C01002F371E /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				319F31FE19EF1BFC002F371E /* how_we_do.mp3 */,
+				319F31FF19EF1BFC002F371E /* hold_on_be_strong.mp3 */,
+				319F320019EF1BFC002F371E /* higher_love.mp3 */,
+				319F320119EF1BFC002F371E /* mo_money_mo_problems.mp3 */,
+				319F320219EF1BFC002F371E /* old_thing_back.mp3 */,
+				319F320319EF1BFC002F371E /* gangsta_bleeding_love.mp3 */,
+				319F320419EF1BFC002F371E /* bailando.mp3 */,
+			);
+			name = Songs;
+			sourceTree = "<group>";
+		};
+		59D955D9BAA31140F0CD5190 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				808EBA1844301FA18FAB4CF2 /* libPods-Jukebox-TableViewsTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6AC2D5EA1F689B5AFD02C5EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0CBB249B7415A2CE2149853 /* Pods-Jukebox-TableViewsTests.debug.xcconfig */,
+				DF54BBD20AAA95B0518036CA /* Pods-Jukebox-TableViewsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		319F31C319EF1B7D002F371E /* Jukebox-TableViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 319F31E719EF1B7D002F371E /* Build configuration list for PBXNativeTarget "Jukebox-TableViews" */;
+			buildPhases = (
+				319F31C019EF1B7D002F371E /* Sources */,
+				319F31C119EF1B7D002F371E /* Frameworks */,
+				319F31C219EF1B7D002F371E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jukebox-TableViews";
+			productName = "Jukebox-TableViews";
+			productReference = 319F31C419EF1B7D002F371E /* Jukebox-TableViews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		319F31DC19EF1B7D002F371E /* Jukebox-TableViewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 319F31EA19EF1B7D002F371E /* Build configuration list for PBXNativeTarget "Jukebox-TableViewsTests" */;
+			buildPhases = (
+				1AC264C9ACD6C39BE549BC2F /* Check Pods Manifest.lock */,
+				319F31D919EF1B7D002F371E /* Sources */,
+				319F31DA19EF1B7D002F371E /* Frameworks */,
+				319F31DB19EF1B7D002F371E /* Resources */,
+				BB486BF4D43C5D7EAD03D62B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				319F31DF19EF1B7D002F371E /* PBXTargetDependency */,
+			);
+			name = "Jukebox-TableViewsTests";
+			productName = "Jukebox-TableViewsTests";
+			productReference = 319F31DD19EF1B7D002F371E /* Jukebox-TableViewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		319F31BC19EF1B7D002F371E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Zachary Drossman";
+				TargetAttributes = {
+					319F31C319EF1B7D002F371E = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					319F31DC19EF1B7D002F371E = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 319F31C319EF1B7D002F371E;
+					};
+				};
+			};
+			buildConfigurationList = 319F31BF19EF1B7D002F371E /* Build configuration list for PBXProject "Jukebox-TableViews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 319F31BB19EF1B7D002F371E;
+			productRefGroup = 319F31C519EF1B7D002F371E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				319F31C319EF1B7D002F371E /* Jukebox-TableViews */,
+				319F31DC19EF1B7D002F371E /* Jukebox-TableViewsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		319F31C219EF1B7D002F371E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				319F31D819EF1B7D002F371E /* LaunchScreen.xib in Resources */,
+				319F320719EF1BFC002F371E /* higher_love.mp3 in Resources */,
+				319F320A19EF1BFC002F371E /* gangsta_bleeding_love.mp3 in Resources */,
+				319F320819EF1BFC002F371E /* mo_money_mo_problems.mp3 in Resources */,
+				319F31D519EF1B7D002F371E /* Images.xcassets in Resources */,
+				319F31FD19EF1BEB002F371E /* play_icon.png in Resources */,
+				319F320619EF1BFC002F371E /* hold_on_be_strong.mp3 in Resources */,
+				319F320919EF1BFC002F371E /* old_thing_back.mp3 in Resources */,
+				319F320B19EF1BFC002F371E /* bailando.mp3 in Resources */,
+				319F31FC19EF1BEB002F371E /* stop_icon.png in Resources */,
+				319F320519EF1BFC002F371E /* how_we_do.mp3 in Resources */,
+				319F31EE19EF1BA5002F371E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		319F31DB19EF1B7D002F371E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AC264C9ACD6C39BE549BC2F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB486BF4D43C5D7EAD03D62B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jukebox-TableViewsTests/Pods-Jukebox-TableViewsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		319F31C019EF1B7D002F371E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				319F31CD19EF1B7D002F371E /* AppDelegate.m in Sources */,
+				319F31F619EF1BD1002F371E /* FISSong.m in Sources */,
+				319F31F719EF1BD1002F371E /* FISPlaylist.m in Sources */,
+				3139506219EF208800655513 /* FISSongTableViewController.m in Sources */,
+				319F31F119EF1BC1002F371E /* FISJukeboxViewController.m in Sources */,
+				3139506119EF208800655513 /* FISPlaylistTableViewController.m in Sources */,
+				319F31CA19EF1B7D002F371E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		319F31D919EF1B7D002F371E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				319F320E19EF1C0B002F371E /* JukeboxViewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		319F31DF19EF1B7D002F371E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 319F31C319EF1B7D002F371E /* Jukebox-TableViews */;
+			targetProxy = 319F31DE19EF1B7D002F371E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		319F31D619EF1B7D002F371E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				319F31D719EF1B7D002F371E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		319F31E519EF1B7D002F371E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		319F31E619EF1B7D002F371E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		319F31E819EF1B7D002F371E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Jukebox-TableViews/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		319F31E919EF1B7D002F371E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Jukebox-TableViews/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		319F31EB19EF1B7D002F371E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0CBB249B7415A2CE2149853 /* Pods-Jukebox-TableViewsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Jukebox-TableViewsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jukebox-TableViews.app/Jukebox-TableViews";
+			};
+			name = Debug;
+		};
+		319F31EC19EF1B7D002F371E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF54BBD20AAA95B0518036CA /* Pods-Jukebox-TableViewsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Jukebox-TableViewsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jukebox-TableViews.app/Jukebox-TableViews";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		319F31BF19EF1B7D002F371E /* Build configuration list for PBXProject "Jukebox-TableViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				319F31E519EF1B7D002F371E /* Debug */,
+				319F31E619EF1B7D002F371E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		319F31E719EF1B7D002F371E /* Build configuration list for PBXNativeTarget "Jukebox-TableViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				319F31E819EF1B7D002F371E /* Debug */,
+				319F31E919EF1B7D002F371E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		319F31EA19EF1B7D002F371E /* Build configuration list for PBXNativeTarget "Jukebox-TableViewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				319F31EB19EF1B7D002F371E /* Debug */,
+				319F31EC19EF1B7D002F371E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 319F31BC19EF1B7D002F371E /* Project object */;
+}
