@@ -35,7 +35,7 @@ The Table View will display the list of songs in the playlist.  All of the other
 
 ### Hints
 
-When adding a tableview to your viewcontroller, don't forget to create an outlet from your tableview to your viewcontroller and connect the table view's delegate and data sources.  
+When adding a tableview to your viewcontroller, create an `IBOutlet` for your tableview. Then add <UITableViewDataSource, UITableViewDelegate> to the `.h` file of your view controller next to the `: UIViewController` part. Then in `viewDidLoad` add in `self.myTableView.delegate = self` and `self.myTableView.dataSource = self`
 
 ### Extra Credit 
 
