@@ -362,7 +362,7 @@ static NSTimeInterval const kSlotTime = 0.25; // Must be >0. We will send a chun
         {
             redirectLocationURL = nil;
         }
-        if (((responseStub.statusCode >= 300) && (responseStub.statusCode < 400)) && redirectLocationURL)
+        if (((responseStub.statusCode > 300) && (responseStub.statusCode < 400)) && redirectLocationURL)
         {
             NSURLRequest* redirectRequest = [NSURLRequest requestWithURL:redirectLocationURL];
             execute_after(responseStub.requestTime, ^{
@@ -425,7 +425,7 @@ typedef struct {
            withStubResponse:(OHHTTPStubsResponse*)stubResponse
                  completion:(void(^)(NSError * error))completion
 {
-    if (stubResponse.inputStream.hasBytesAvailable && !self.stopped)
+    if ((stubResponse.dataSize>0) && stubResponse.inputStream.hasBytesAvailable && (!self.stopped))
     {
         // Compute timing data once and for all for this stub
         
@@ -472,7 +472,7 @@ typedef struct {
 {
     NSParameterAssert(timingInfo.chunkSizePerSlot > 0);
     
-    if (inputStream.hasBytesAvailable && !self.stopped)
+    if (inputStream.hasBytesAvailable && (!self.stopped))
     {
         // This is needed in case we computed a non-integer chunkSizePerSlot, to avoid cumulative errors
         double cumulativeChunkSizeAfterRead = timingInfo.cumulativeChunkSize + timingInfo.chunkSizePerSlot;
