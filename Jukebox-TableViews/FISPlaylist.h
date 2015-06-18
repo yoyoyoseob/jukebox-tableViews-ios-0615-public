@@ -15,6 +15,7 @@
 
 @property (strong, nonatomic) NSMutableArray *songs;
 @property (strong, nonatomic) NSString *name;
+//@property (strong, nonatomic) NSMutableArray *arrayOfNames;
 
 -(void)sortSongsByTitle;
 -(void)sortSongsByArtist;

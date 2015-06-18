@@ -23,6 +23,15 @@
     return [self initWithName:@""];
 }
 
+//-(NSMutableArray *)arrayOfNames
+//{
+//    [_arrayOfNames addObject:@"Bracket Sounds"];
+//    [_arrayOfNames addObject:@"Songs to Code By"];
+//    [_arrayOfNames addObject:@""];
+//    
+//    return _arrayOfNames;
+//}
+
 -(NSMutableArray *)songs
 {
     if (!_songs) {
@@ -39,6 +48,7 @@
         } else if ([self.name isEqualToString:@"Songs to Code By"]){
             _songs = [[NSMutableArray alloc] initWithArray:@[song5, song6, song7]];
         } else {
+            self.name = @"All Songs";
             _songs = [[NSMutableArray alloc] initWithArray:@[song1, song2, song3, song4, song5, song6, song7]];
         }
         

@@ -1,15 +1,15 @@
+////
+////  FISJukeboxViewController.h
+////  JukeboxViews
+////
+////  Created by Chris Gonzales on 8/21/14.
+////  Copyright (c) 2014 FIS. All rights reserved.
+////
 //
-//  FISJukeboxViewController.h
-//  JukeboxViews
+//#import <UIKit/UIKit.h>
+//#import <AVFoundation/AVFoundation.h>
 //
-//  Created by Chris Gonzales on 8/21/14.
-//  Copyright (c) 2014 FIS. All rights reserved.
+//@interface FISJukeboxViewController : UIViewController <UITextFieldDelegate>
 //
-
-#import <UIKit/UIKit.h>
-#import <AVFoundation/AVFoundation.h>
-
-@interface FISJukeboxViewController : UIViewController <UITextFieldDelegate>
-
-@property (strong, nonatomic) AVAudioPlayer *audioPlayer;
-@end
+//@property (strong, nonatomic) AVAudioPlayer *audioPlayer;
+//@end
